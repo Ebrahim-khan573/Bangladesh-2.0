@@ -4,7 +4,8 @@ body {
     font-family: "Fira Sans", serif;
     font-weight: 100;
     font-style: normal;
-    margin: 0 160px;
+    padding: 0 160px;
+    background: rgb(245, 245, 245);
 }
 
 nav {
@@ -51,10 +52,15 @@ header {
     gap: 64px;
 }
 
+.banner-items {
+    margin-bottom: 0;
+}
+
 .banner-title {
     color: rgba(14, 14, 14, 0.5);
     font-size: 24px;
     font-weight: 500;
+    margin: 0;
 }
 
 .banner-describe {
@@ -62,6 +68,8 @@ header {
     font-size: 56px;
     font-weight: 700;
     line-height: 67px;
+    margin: 0;
+    margin: 8px 0 24px 0;
 }
 
 .btn-primary {
@@ -72,4 +80,227 @@ header {
     background: rgb(0, 106, 80);
     padding: 15px 34px;
     border: none;
+}
+
+.banner-container {
+    margin-bottom: 80px;
+}
+
+/* end of banner section------------------------------------------------------  */
+
+.pillars-container {
+    margin-bottom: 80px;
+}
+
+.pillars-title {
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.card-container {
+    display: flex;
+    gap: 24px;
+    margin: 0;
+}
+
+.card {
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 24px;
+
+
+}
+
+.card-title {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 26px;
+    margin-bottom: 12px;
+}
+
+.card-describe {
+    color: rgba(14, 14, 14, 0.7);
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* -------------------pillars of card end ------------------*/
+.vision-future-container {
+    margin-bottom: 32px;
+}
+
+.vision-card-container {
+    display: flex;
+    gap: 24px;
+}
+
+.vision-of-future {
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+
+}
+
+.vision-of-future-describe {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+.vision-card {
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+    padding: 32px;
+}
+
+.vision-card-title {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.vision-card-describe {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.vision-btn {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    background: rgb(84, 144, 245);
+
+}
+
+.green {
+    background: rgb(198, 228, 214);
+}
+
+.yellow {
+    background: rgb(247, 235, 207);
+}
+
+.green-btn {
+    background: rgb(9, 161, 92);
+}
+
+.yellow-btn {
+    background: rgb(255, 194, 57);
+}
+
+/* end of vision of future section ---------------------------- */
+.dr-yunus-container {
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 48px 30px;
+    margin-bottom: 12px;
+    background-image: url(./assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position-x: 30px;
+    background-position-y: 35px;
+
+}
+
+.yunus-describe {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.yunus-name {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.yunus-designation {
+    margin-top: 0;
+    color: rgba(14, 14, 14, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* end of yunus section  ---------------------*/
+
+.recent-news-section {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.recent-news {
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.recent-news-describe {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 32px;
+}
+
+.recent-container {
+    border-radius: 24px;
+    background: rgb(255, 255, 255);
+    padding: 48px;
+    display: flex;
+    gap: 32px;
+}
+
+.recent-container-2{
+    margin: 24px 0;
+}
+
+.satelite-img {
+    border-radius: 24px;
+
+}
+
+.bangladesh-launches-title {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.al-jazeera-logo {
+    margin-bottom: 12px;
+}
+
+.date-time {
+    display: flex;
+    gap: 12px;
+}
+
+.time {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    gap: 12px;
+    margin: 0;
+}
+
+.news-describe {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 32px;
+
 }
