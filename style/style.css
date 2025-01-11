@@ -1,17 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-main {
+body{
+    margin: 0;
+    padding: 0;
     font-family: "Fira Sans", serif;
     font-weight: 100;
     font-style: normal;
+}
+main {
+    
     padding: 0 160px 80px 160px;
     background: rgb(245, 245, 245);
     margin: 0;
 }
 
-main{
-    
-}
+
 
 nav {
     display: flex;
@@ -39,6 +42,12 @@ ul li {
     border-radius: 8px;
     padding: 15px 30px;
     background-color: white;
+}
+
+.nav-btn:hover{
+    background-color: rgb(0, 106, 80); 
+    color: white;
+    border: none;
 }
 
 header {
@@ -200,6 +209,10 @@ header {
 
 }
 
+.vision-btn:hover{
+    background: rgb(14, 89, 219);
+}
+
 .green {
     background: rgb(198, 228, 214);
 }
@@ -212,8 +225,15 @@ header {
     background: rgb(9, 161, 92);
 }
 
+.green-btn:hover {
+    background: rgb(1, 133, 71);
+}
+
 .yellow-btn {
     background: rgb(255, 194, 57);
+}
+.yellow-btn:hover {
+    background: rgb(253, 179, 7);
 }
 
 /* end of vision of future section ---------------------------- */
@@ -448,7 +468,7 @@ header {
 
 
 .subscribe {
-    height: 55px;
+    height: 57px;
     border-radius: 0px 8px 8px 0px;
 }
 
